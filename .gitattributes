@@ -1,5 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 app/release/app-release.apk filter=lfs diff=lfs merge=lfs -text
+*.apk filter=lfs diff=lfs merge=lfs -text
 *.gif filter=lfs diff=lfs merge=lfs -text
 *.tflite filter=lfs diff=lfs merge=lfs -text
