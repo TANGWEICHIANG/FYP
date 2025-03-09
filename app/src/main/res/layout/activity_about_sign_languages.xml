@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColor"
+    tools:context=".activities.AboutSignLanguages">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="About Sign Language"
+                android:fontFamily="@font/aileron_bold"
+                android:textColor="@color/white"
+                android:letterSpacing="0.02"
+                android:textSize="19sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_sign1"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/questrial_regular"
+                android:letterSpacing="0.03"
+                android:justificationMode="inter_word"
+                tools:targetApi="o" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="So, you must now be wondering, what exactly is this sign language?"
+                android:layout_marginTop="20dp"
+                android:textSize="17sp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/aileron_bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_sign2"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/questrial_regular"
+                android:letterSpacing="0.03"
+                android:justificationMode="inter_word"
+                tools:targetApi="o" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

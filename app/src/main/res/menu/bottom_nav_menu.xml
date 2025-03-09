@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav_recognition"
+        android:icon="@drawable/ic_camera"
+        android:title="Home"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/nav_quizzes"
+        android:icon="@drawable/ic_time"
+        android:title="Quizzes"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/nav_tutorial"
+        android:icon="@drawable/ic_video"
+        android:title="Tutorial"
+        app:showAsAction="ifRoom" />
+</menu>

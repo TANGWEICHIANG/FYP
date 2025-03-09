@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "782133681830",
+    "firebase_url": "https://signlearn-286841-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "signlearn-286841",
+    "storage_bucket": "signlearn-286841.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:782133681830:android:5fab2b68499ff553a51e67",
+        "android_client_info": {
+          "package_name": "com.example.signlearn"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCfUlSclmUA70MCQ2YxiPiRFSNamdu2pc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    android:background="@color/black"
+    tools:context=".tutorial.NumberTutorialActivity">
+
+    <!-- Custom back button -->
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@drawable/ic_back_arrow"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_a_number"
+        android:textSize="30sp"
+        android:fontFamily="@font/poppins_semi_bold"
+        android:textAppearance="?attr/textAppearanceHeadline6"
+        android:textColor="@android:color/white"
+        android:padding="16dp"
+        app:layout_constraintTop_toBottomOf="@id/backButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginStart="16dp"
+        android:columnCount="2"
+        android:gravity="center"
+        android:rowCount="5"
+        app:layout_constraintTop_toBottomOf="@id/titleTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Buttons for each number 0-9 -->
+        <Button
+            android:id="@+id/button_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/rounded_button_alphabet"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="17sp"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/button_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/rounded_button_alphabet"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="17sp"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/button_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/rounded_button_alphabet"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="17sp"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/button_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/rounded_button_alphabet"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="17sp"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/button_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/rounded_button_alphabet"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="17sp"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/button_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/rounded_button_alphabet"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="17sp"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/button_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/rounded_button_alphabet"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="17sp"
+            android:text="6" />
+
+        <Button
+            android:id="@+id/button_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/rounded_button_alphabet"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="17sp"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/button_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/rounded_button_alphabet"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="17sp"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/button_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/rounded_button_alphabet"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="17sp"
+            android:text="9" />
+    </GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

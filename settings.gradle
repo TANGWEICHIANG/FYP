@@ -1,0 +1,4 @@
+include ':app'
+rootProject.name = "SignLearn"
+include ':openCVLibrary3413'
+include ':openCV4.9:sdk'
